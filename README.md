@@ -1,3 +1,3 @@
 # Background Queue in ASP.NET Core
 
-Building using the documentation here: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-2.1
+Build using the documentation here: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/hosted-services?view=aspnetcore-2.1
