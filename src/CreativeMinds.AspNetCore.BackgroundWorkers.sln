@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreativeMinds.AspNetCore.BackgroundWorkers", "CreativeMinds.AspNetCore.BackgroundWorkers\CreativeMinds.AspNetCore.BackgroundWorkers.csproj", "{C2B2DE13-7E1A-40FE-A67F-5E3BEEFCFEAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreativeMinds.AspNetCore.BackgroundWorkers", "CreativeMinds.AspNetCore.BackgroundWorkers\CreativeMinds.AspNetCore.BackgroundWorkers.csproj", "{C2B2DE13-7E1A-40FE-A67F-5E3BEEFCFEAD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{CEC09709-C3C9-4DDF-8E8A-17913BCE5E3A}"
+	ProjectSection(SolutionItems) = preProject
+		..\appveyor.yml = ..\appveyor.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{A2CE4C8C-F6E3-4C06-8CC3-DA8B88121470}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
